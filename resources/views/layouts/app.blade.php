@@ -14,6 +14,16 @@
         </style>
     </head>
     <body>
-       <h1>Movies</h1>
+       <header>
+            
+       </header>
+
+       <main>
+            @yield('content')
+       </main>
+
+       <footer>
+            <p>&copy; Movies 2022</p>
+       </footer>
     </body>
 </html>
